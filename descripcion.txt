@@ -1,0 +1,102 @@
+Un cliente, para escoger un viaje, le gustaría ver una lista de viajes disponibles de la dificultad apropiada,
+en una fecha específica, donde haya disponibilidad de bicicletas para rentar.
+
+
+DESCRIPCIÓN APLICACIÓN PARA ENCONTRAR PASEOS DE NATURALEZA CON PERROS
+---------------------------------------------------------------------
+
+
+DESCRIPCIÓN DE APLICACIÓN DE DOMICILIOS
+---------------------------------------
+TENER EN CUENTA EL PAPEL DEL ADMINISTRADOR
+Se ofrece al usuario una lista de servicios y productos para que los solicite y el administrador lo que hace es
+enviarle el servicio o producto escogiendo de la lista de comercios que tenga registrados.
+
+
+El usuario, para pedir un domicilio, puede ver un listado de comercios disponibles en su área, o
+en un área específica, de los cuales puede filtrar adicionalmente por categorías, marcas, nombre,
+palabras clave, tiempos de llegada, o por tiempos o fechas de entrega del producto o servicio.
+El usuario puede ordenar los comercios por tiempos de entrega, precios (si están disponibles).
+
+El usuario que necesita un servicio de mensajería, define las diligencias que el mensajero tiene que hacer,
+con sus respectivas direcciones, los mensajeros registrados reciben una notificación y responden al mensaje
+si nadie lo ha hecho primero.
+
+
+El usuario, para poder usar la aplicación, debe registrarse con sus datos personales incluyendo
+los de una tarjeta de crédito para realizar los pagos.
+
+El usuario, para solicitar un servicio a domicilio, puede ver una lista de comercios disponibles,
+filtrando por la categoría que necesita.
+
+El usuario puede filtrar la lista de comercios por categorías de sus productos o servicios, por ubicación,
+por marcas, por nombre, por palabras clave, por tiempos de llegada, o por fechas específicas de entrega del
+producto o servicio.
+
+Al ingresar al detalle del comercio seleccionado puede ver el precio o rango de precios,
+el tiempo de entrega o llegada aproximado.
+
+Si se requiere de agendamiento para el servicio, puede revisar los horarios de disponibilidad que
+el comercio facilita a través de la aplicación, o enviar un mensaje con la solicitud directamente
+al comercio.
+
+El usuario podrá ver el listado de comercios que queden mas cerca a su ubicación, junto con los tiempos
+de atención.
+
+El administrador es notificado cuando un usuario solicita un servicio o producto.
+
+Cuando el administrador asigna el domiciliario, este es notificado.
+
+El usuario podrá ver un listado de promociones y las fechas en que aplican.
+
+El usuario puede realizar la compra a través de la aplicación y ver el resumen de su compra en un
+carrito de compras.
+
+El usuario puede calificar el comercio y productos en los que haya realizado compras.
+
+Un comercio, para poder aparecer en la aplicación, debe proporcionar un listado de sus productos o
+servicios, ofertas, imágenes de los productos, precios.
+
+El domiciliario, para registrar su recorrido y sus tiempos, puede registrarse y señalar
+el inicio de la entrega asignada por el administrador.
+
+El administrador de la aplicación, para realizar el control de los domiciliarios, puede rastrear su
+ubicación en todo momento, por medio de GPS.
+
+El administrador puede acceder a reportes que le permiten ver los movimientos de los diferentes negocios,
+categorías, clientes.
+
+El administrador, para poder asignar un domiciliario a un servicio, debe ver la lista de domiciliarios
+disponibles, y en la ubicación más cercana al cliente, para su asignación.
+
+Los usuarios pueden acceder a través de un navegador o a través de una aplicación instalada en su celular.
+
+Reportes
+--------
+- Ventas por producto en un período de tiempo, y ubicación
+- Ventas por servicio en un período de tiempo, y ubicación
+- Ventas por comercio
+- Tiempos de respuesta por domiciliario
+- Actividad por cliente para promociones, programas de fidelización
+
+------------------------------------------------------------------------------------------------------------
+
+
+ENTIDADES
+---------
+
+USER
+  name
+  email
+  phone_number
+  address
+
+COMMERCE
+  name
+  categories
+  address
+  productos/servicios
+
+CATEGORY
+  name
+  description

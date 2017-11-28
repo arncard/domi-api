@@ -1,0 +1,3 @@
+class LocationFinder
+
+end
