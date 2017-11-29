@@ -35,6 +35,8 @@ class CommercesController < ApplicationController
   private
 
     def commerce_params
-      params.require(:commerce).permit(:name, :address, :email, :website, :logo, { category_ids: []})
+      params.require(:commerce).permit(:name, :address, :email, 
+																			 :website, :logo, :rating, 
+																			 { category_ids: []})
     end
 end

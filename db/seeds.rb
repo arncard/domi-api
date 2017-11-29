@@ -15,6 +15,7 @@ Commerce.create!([{
   email: "info@agrocampo.com",
   website: "www.agrocampo.com",
   logo: "https://dl.dropboxusercontent.com/s/mslyw3fxims8kiv/agrocampo.jpg?dl=0",
+	rating: "3",
   categories: [mascotas]
 },
 {
@@ -23,6 +24,7 @@ Commerce.create!([{
   email: "info@antonios.com",
   website: "www.antonios.com",
   logo: "https://dl.dropboxusercontent.com/s/qd2gwfekmof1db4/antonios.jpeg?dl=0",
+	rating: "4",
   categories: [peluquerias]
 },
 {
@@ -31,6 +33,7 @@ Commerce.create!([{
   email: "info@buffalowings.com",
   website: "www.buffalowings.com",
   logo: "https://dl.dropboxusercontent.com/s/yrmcwvp7kv5o3tc/buffalo_wings.jpeg?dl=0",
+	rating: "5",
   categories: [restaurantes, comida_rapida]
 },
 {
@@ -39,6 +42,7 @@ Commerce.create!([{
   email: "info@ceba.com",
   website: "www.ceba.com",
   logo: "https://dl.dropboxusercontent.com/s/tb9ap04syrati28/ceba.jpeg?dl=0",
+	rating: "3",
   categories: [mascotas]
 },
 {
@@ -47,6 +51,7 @@ Commerce.create!([{
   email: "info@frisby.com",
   website: "www.frisby.com",
   logo: "https://dl.dropboxusercontent.com/s/cpx5axz15d9a32n/frisby.jpg?dl=0",
+	rating: "2",
   categories: [restaurantes, comida_rapida]
 },
 {
@@ -55,14 +60,16 @@ Commerce.create!([{
   email: "info@harry_sasson.com",
   website: "www.harry_sasson.com",
   logo: "https://dl.dropboxusercontent.com/s/ckgs9oqrvb2v6kt/harry_sasson.jpg?dl=0",
+	rating: "5",
   categories: [restaurantes, comida_rapida]
 },
 {
-  name: "Kokkoriko",
+  name: "Kokoriko",
   address: "Carrera 9 # 125 -67",
   email: "info@kokoriko.com",
   website: "www.kokoriko.com",
   logo: "https://dl.dropboxusercontent.com/s/3dj4zk56wlyf3xr/kokoriko.jpg?dl=0",
+	rating: "2",
   categories: [restaurantes, comida_rapida]
 },
 {
@@ -71,6 +78,7 @@ Commerce.create!([{
   email: "info@marco_antonio.com",
   website: "www.marco_antonio.com",
   logo: "https://dl.dropboxusercontent.com/s/a618ymk6b19uaiw/marco_antonio.jpeg?dl=0",
+	rating: "4",
   categories: [peluquerias]
 },
 {
@@ -79,6 +87,7 @@ Commerce.create!([{
   email: "info@mcdonalds.com",
   website: "www.mcdonalds.com",
   logo: "https://dl.dropboxusercontent.com/s/qpk4ec9rjn00b6c/mcdonalds.jpg?dl=0",
+	rating: "1",
   categories: [restaurantes, comida_rapida]
 },
 {
@@ -87,6 +96,7 @@ Commerce.create!([{
   email: "info@pizzahut.com",
   website: "www.pizzahut.com",
   logo: "https://dl.dropboxusercontent.com/s/qp9k1ja0i5qknz8/pizzahut.jpg?dl=0",
+	rating: "3",
   categories: [restaurantes, comida_rapida]
 },
 {
@@ -95,6 +105,7 @@ Commerce.create!([{
   email: "info@tostao.com",
   website: "www.tostao.com",
   logo: "https://dl.dropboxusercontent.com/s/f0q2p802e5d3dm2/tostao.jpeg?dl=0",
+	rating: "4",
   categories: [cafeterias]
 },
 {
@@ -103,6 +114,7 @@ Commerce.create!([{
   email: "info@wendys.com",
   website: "www.wendys.com",
   logo: "https://dl.dropboxusercontent.com/s/blqth610tirz8hx/Wendys.jpg?dl=0",
+	rating: "1",
   categories: [restaurantes, comida_rapida]
 }])
 
