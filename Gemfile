@@ -22,6 +22,8 @@ gem 'puma', '~> 3.7'
 
 # Making it easy to serialize models for client-side use
 gem 'active_model_serializers'
+# Users authentication
+gem 'devise'
 
 group :test do
   gem 'factory_girl_rails', '~> 4.9'
