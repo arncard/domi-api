@@ -14,7 +14,7 @@ Commerce.create!([{
   address: "Calle 82 # 15 - 29",
   email: "info@agrocampo.com",
   website: "www.agrocampo.com",
-  logo: "https://dl.dropboxusercontent.com/s/mslyw3fxims8kiv/agrocampo.jpg?dl=0",
+	logo: "https://dl.dropboxusercontent.com/s/brcwium7ccnmgvx/agrocampo.jpg?dl=0",
 	rating: "3",
   categories: [mascotas]
 },
@@ -23,7 +23,7 @@ Commerce.create!([{
   address: "Carrera 13 # 35 - 42",
   email: "info@antonios.com",
   website: "www.antonios.com",
-  logo: "https://dl.dropboxusercontent.com/s/qd2gwfekmof1db4/antonios.jpeg?dl=0",
+	logo: "https://dl.dropboxusercontent.com/s/cflhlt474oe8k6s/antonios.jpeg?dl=0",
 	rating: "4",
   categories: [peluquerias]
 },

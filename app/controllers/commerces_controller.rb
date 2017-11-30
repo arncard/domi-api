@@ -9,6 +9,7 @@ class CommercesController < ApplicationController
 
   def show
     @commerce = Commerce.find(params[:id])
+		render json: @commerce, include: 'categories'
   end
 
   def new

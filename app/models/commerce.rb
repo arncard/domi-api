@@ -1,5 +1,6 @@
 class Commerce < ApplicationRecord
 
+	has_many :reviews
   has_many :commerce_categories
   has_many :categories, through: :commerce_categories
   
