@@ -1,4 +1,4 @@
-class CommercesController < ApplicationController
+class Api::V1::CommercesController < ApplicationController
 
   def index
     @commerces = Commerce.search(params[:name]).

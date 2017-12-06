@@ -26,7 +26,7 @@ gem 'active_model_serializers'
 gem 'devise'
 
 group :test do
-  gem 'factory_girl_rails', '~> 4.9'
+  gem 'factory_bot_rails'
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
   gem 'faker', '~> 1.8', '>= 1.8.4'
   gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
