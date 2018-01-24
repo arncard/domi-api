@@ -1,12 +1,16 @@
+Product.destroy_all
+ProductCategory.destroy_all
 Commerce.destroy_all
 Category.destroy_all
 
+# Categorias de comercios
 helados       = Category.create!(name: 'helados')
 restaurantes  = Category.create!(name: 'Restaurantes')
 peluquerias   = Category.create!(name: 'Peluquerias')
 comida_rapida = Category.create!(name: 'Comida Rápida')
 mascotas      = Category.create!(name: 'Mascotas')
 cafeterias    = Category.create!(name: 'Cafeterías')
+
 
 
 Commerce.create!([{
@@ -119,3 +123,8 @@ Commerce.create!([{
 }])
 
 p "Se crearon #{Commerce.count} comercios"
+
+ProductCategory.create!(name: "Alimentos", commerce_id: Commerce.first.id)
+ProductCategory.create!(name: "Juguetes", commerce_id: Commerce.first.id)
+ProductCategory.create!(name: "Aseo", commerce: Commerce.first)
+#https://www.bhalash.com/archives/13544808202

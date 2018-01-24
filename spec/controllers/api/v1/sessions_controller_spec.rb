@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Api::V1::SessionsController, type: :controller do
+
 	describe "POST #create" do
 
 		before(:each) do
@@ -36,6 +37,19 @@ RSpec.describe Api::V1::SessionsController, type: :controller do
 			it "responds with 422" do
 				expect(response).to have_http_status(422)
 			end
+		end
+	end
+
+	describe "DELETE #destroy" do
+
+		before(:each) do
+			@user = FactoryBot.create :user
+			sign_in @user
+			delete :destroy, params: { id: @user.auth_token }
+		end
+
+		it "responds with 204" do
+			expect(response).to have_http_status(204)
 		end
 	end
 end
